@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Sharma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" type="font/woff2">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <nav class="navbar">
+        <h3 class="logo"><span id="logo">Abhi</span>nav.</h3>
+        <button class="navbar-toggler" type="button" onclick="toggleMenu()" aria-label="Toggle navigation">☰</button>
+        <ul class="navbar-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="about" id="about">
+    
+    <div class="aboutme">
+        <p>Hello! I'm <b>Abhinav Sharma</b>, a passionate web developer with a strong foundation in both front-end and back-end technologies. 
+        Currently, I’m pursuing my B.Tech at Arya College of Engineering. I specialize in a variety of technologies, including HTML, CSS, JavaScript, React, Node.js. 
+        I believe in writing clean, efficient code and continuously learning to stay updated with the latest industry trends. Feel free to explore my portfolio to see my work and get in touch with me for any collaboration or opportunities.</p>
+        <a href="path/to/your/resume.pdf" class="btn" download>
+            <i class="fa fa-download"></i> Resume
+        </a>
+    </div>
+    <div class="about-img">
+        <img src="assets/IMG_20220518_093520-removebg-preview.png" alt="Abhinav Sharma">
+    </div>
+  </div>
+
+  <hr>
+
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="card">
+        <div class="card-content">
+            <i class="devicon-html5-plain skill-icon" aria-hidden="true"></i>
+            <div class="text-content">
+                <h3>HTML</h3>
+                <p>Proficient in creating structured web pages.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <i class="devicon-css3-plain skill-icon" aria-hidden="true"></i>
+            <div class="text-content">
+                <h3>CSS</h3>
+                <p>Experienced in styling and layout design.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <i class="devicon-javascript-plain skill-icon" aria-hidden="true"></i>
+            <div class="text-content">
+                <h3>JavaScript</h3>
+                <p>Skilled in adding interactivity to web pages.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <i class="devicon-c-plain skill-icon" aria-hidden="true"></i>
+            <div class="text-content">
+                <h3>C</h3>
+                <p>Strong foundation in procedural programming.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <i class="devicon-cplusplus-plain skill-icon" aria-hidden="true"></i>
+            <div class="text-content">
+                <h3>C++</h3>
+                <p>Experienced in object-oriented programming.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <i class="devicon-python-plain skill-icon" aria-hidden="true"></i>
+            <div class="text-content">
+                <h3>Python</h3>
+                <p>Simple and versatile programming language.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/work-1.jpg" alt="Project 1 Image" class="project-image">
+        <h3>Personal Portfolio</h3>
+        <p>Developed a responsive personal portfolio website using HTML, CSS, and JavaScript. The site features a modern design, intuitive navigation, and showcases my projects and skills. Implemented best practices in web development, including cross-browser compatibility and mobile-first design. Take a look around to see what I’ve built.</p>
+        <a href="link-to-project" target="_blank" rel="noopener noreferrer" aria-label="View Personal Portfolio Project">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/work-1.jpg" alt="Project 2 Image" class="project-image">
+        <h3>Landing Page</h3>
+        <p>Brief description of the project.</p>
+        <a href="link-to-project" target="_blank" rel="noopener noreferrer" aria-label="View Landing Page Project">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+          <p>Feel free to reach out to me via email or phone.</p>
+          <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+          <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST" novalidate>
+          <input type="hidden" name="access_key" value="89053400-8d56-4f96-9433-01f10067b85a">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.github.com" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+    </div>
+    <p>© 2024 Abhinav Sharma. All rights reserved.</p>
+    
+</footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
